@@ -1,0 +1,422 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 33%;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    background: black;
+    height: 70%;
+}
+
+.navlist {
+    width: 90%;
+    /*background-color: black;*/
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+
+
+}
+
+.navlist li {
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navlist li a:hover {
+
+    color: grey;
+}
+
+.rightNav {
+    width: 10%;
+    /*background-color: blue;*/
+    text-align: right;
+    padding: 0 23px;
+    background: black;
+}
+
+
+#Search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px soild grey;
+    border-radius: 9px;
+}
+
+/* .background {
+    background-image:url('/gray-business-background_fyDF4d9d_thumb.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+
+} */
+
+.firstSection {
+
+    width: 200px;
+
+}
+
+.box-main {
+    display: flex;
+    /*
+    justify-content: center;
+    */
+
+    align-items: center;
+    color: white;
+    text-align: left;
+    height: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+}
+
+.firstHalf {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.move {
+    position: relative;
+    animation-name: aviral1;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+
+}
+
+@keyframes aviral1 {
+    from {
+        height: 250px;
+
+    }
+
+    to {
+        height: 400px;
+    }
+}
+
+
+.secondHalf {
+    width: 30%;
+    display: flex;
+
+
+}
+
+.description {
+    padding: 30px;
+    font-size: 18px;
+}
+
+.secondHalf img {
+    width: 110%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+.text-big {
+    padding: 30px;
+    font-size: 41px;
+    font-weight: bold;
+    animation-name: aviral2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes aviral2 {
+    from {
+        font-size: 20px;
+
+    }
+
+    to {
+        font-size: 40px;
+    }
+}
+
+.text-small {
+    padding: 30px;
+    font-size: 18px;
+    
+}
+
+
+.heading {
+    padding: 33px;
+    margin: 18px;
+    font-size: xx-large;
+    animation-name: aviral4;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes aviral4 {
+    from {
+        font-size: 20px;
+
+    }
+
+    to {
+        font-size: 40px;
+    }
+}
+
+
+.btn {
+    padding: 8px 22px;
+    margin: 25px 3px;
+    background: none;
+    border: 3px solid black;
+    border-radius: 50px;
+
+    background-color: white;
+    cursor: pointer;
+
+
+
+}
+
+.btn-sm {
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+
+.btn-dark {
+    padding: 4px;
+}
+
+.btn-p {
+    padding: 3px;
+    vertical-align: middle;
+}
+
+.section {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    padding: 50px;
+
+
+
+
+}
+
+.section-left {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    flex-direction: row-reverse;
+}
+
+.paras {
+    padding: 0 65px;
+
+
+}
+
+.sectionTag {
+    padding: 10px 0;
+
+}
+
+.subsectionTag {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 13px;
+
+}
+
+
+.thumbnail img {
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 26px;
+    margin-top: 19px;
+    animation-name: aviral3;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+
+}
+
+@keyframes aviral3 {
+    from {
+        width: 150px;
+
+    }
+
+    to {
+        font-size: 350px;
+    }
+}
+
+
+.currency {
+    background: rgb(215, 213, 213);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 23px;
+}
+
+.contact textarea {
+    height: 70px;
+}
+
+.text-center {
+    text-align: center;
+    padding: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+}
+
+.form {
+    max-width: 450px;
+    margin: 42px auto;
+}
+
+.form-input {
+    width: 450px;
+    margin: 15px 0;
+    padding: 5px 7px;
+    font-size: 18px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.current{
+    width: 470px;
+    margin: 15px 0;
+    padding: 5px 7px;
+    font-size: 18px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-footer {
+    text-align: center;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.burger {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+
+}
+
+.line {
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
+
+
+.footer-content {
+    background: #000003;
+    display: flex;
+    flex-direction: column;
+    height: 38vh;
+}
+
+.footer-content h1 {
+    text-align: center;
+    padding: 23px;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    color: white;
+}
+
+
+.socials {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    list-style: none;
+    margin: 1rem 0 3rem 0;
+    padding: 0;
+
+}
+
+.socials a {
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+
+}
+
+.socials a:hover {
+    color: blue;
+    
+}
+
+.footer-bottom {
+    background: #000003;
+    text-align: center;
+    align-items: center;
+    word-spacing: 2px;
+
+}
+
+.footer-bottom p {
+    color: white;
+}
