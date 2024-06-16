@@ -1,1 +1,1 @@
-# Portfolio
+This website is basically created with the help of HTML, CSS and JavaScript. In order to fetch the data franfurt API has been used to determine the exchanges rate for the given amount in certain currency. This process using the fetch function of the JavaScript which asynchronously calls for the refershment of the data making it dyanmic in nature.
